@@ -1,6 +1,6 @@
 // const inter = Inter({ subsets: ['latin'] })
+import { ThemeCard } from '@/components/theme-card';
 import { fetchThemes } from '@/lib/get-themes';
-import { ThemeCard } from '@/ui/theme-card';
 
 export default async function Home() {
     const themes = await fetchThemes();
